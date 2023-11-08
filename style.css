@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Dancing+Script:wght@600&family=Fjalla+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@600&family=DM+Serif+Display:ital@1&family=Dancing+Script:wght@600&family=Fjalla+One&family=Pacifico&family=Satisfy&display=swap');
+body{
+    background-color: #c4d8ffcf;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+nav{
+    font-family: 'Fjalla One' , sans-serif; 
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: blanchedalmond;
+    color: black;
+
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+
+    width: 75px ;
+    padding: 0 6px ;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.9rem;
+}
+
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color:white ;
+    font-family: 'DM Serif Display', sans-serif ;
+    display: flex;
+    width: 80%;
+    margin: 24px auto;
+    border-radius: 14px;
+    padding: 35px;
+    background-image: url('cover4.jpeg') ;
+}
+
+
+
+h2{
+    font-family: 'Dancing Script' , sans-serif;
+    color: white;
+} 
+
+h4{
+    font-family: 'Abril Fatface' , sans-serif;
+    color: gray;
+} 
+
+h3{
+    font-family: 'Satisy' , sans-serif;
+    color: red;
+} 
+
+h5{
+    font-family: 'Caveat' , sans-serif;
+    color: blanchedalmond;
+} 
+
+
+.songItemContainer{
+    margin-top: 35px;
+}
+.songItem{
+    height: 100px;
+    color: aliceblue;
+    margin: 18px 0; 
+    justify-content: space-between;
+    align-items: center; 
+    width: 200px; 
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(50, 40, 183, 0.3);
+    border-radius: 10px;
+}
+
+
+.songItem img{
+    width: 75px;
+    margin: 0 5px;
+    border-radius: 34px;
+    
+}
+
+.Playlist{
+    align-items: center;
+    justify-content: right;
+}
+
+
+
+
+
+.songItem a:hover {
+    background-color: purple;
+}
+@media (max-width: 768px) {
+    .songItem {
+        width: 100%; 
+        
+    }
+    .songItem img{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 200px;
+    }
+}
